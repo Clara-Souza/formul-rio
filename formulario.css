@@ -77,8 +77,6 @@ input {
   cursor: pointer;
   background-color: transparent;
   border: none;
-  display: flex;
-  align-items: center;
 }
 
 @media (max-width:800px) {
@@ -101,6 +99,20 @@ input {
     .cadastro {
         height: 100vh;
     }
+
+    input {
+        padding: 3px;
+        border-radius: 10px;
+        width: 100%;
+    }
+
+        .emailText, .senhaText, .nameText, .lastNameText, .phoneText, .emailText2, .passwordText, .confirm {
+            width: 50px;
+            display: flex;
+            flex:1;
+        }
+
+
 }
     @media (max-width:380px) {
         .container {
