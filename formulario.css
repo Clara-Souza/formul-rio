@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#e3d1de,#eecdcd,#e7b8d3);
+}
+
+.container{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login,.cadastro{
+    border: 2px solid black;
+    font-size: 25px;
+    margin-top: 150px;
+    width: 500px;
+    height: 450px; 
+}
+
+.armazenar{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.titleLogin, .titleCadastro{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.entrar, .cadastrar{
+   width: 80%;
+   padding-left: 60px;
+   padding-right: 60px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border-radius: 10px;
+   cursor: pointer;
+   font-size: 15px;
+   background: rgb(238,205,205);
+   background: radial-gradient(circle, rgba(238,205,205,1) 0%, rgba(227,209,222,0.8211659663865546) 56%, rgba(226,114,188,0.9332107843137255) 100%);
+}
+
+.entrar:hover, .cadastrar:hover {
+    scale: 1.1;
+    font-weight: bold;
+    transition: ease-out 0.5s;
+}
+
+.botaoEntrar, .botaoCadastrar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 17px;
+}
+
+.mostrar,.ver,.aparecer{
+    margin-left: 5px;
+}
+
+.emailText,.senhaText,.nameText,.lastNameText,.phoneText,.emailText2,.passwordText,.confirm{
+    margin-left: 5px;
+}
+
+input {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.buttonSenha, .aparecerSenha, .verSenha {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <header>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="formulario.css">
+        <title>Formulário</title>
+    </header>
+</head>
+<body>
+    <div class="container">
+        <section class="section1">
+            <div class="login">
+                <div class="titleLogin">Login</div>
+                <div class="mainText1">
+                    <div class="armazenar">
+                        <div class="email">E-mail:</div>
+                        <div class="emailText"><input type="email" id="textoDoEmail1" placeholder="E-mail"></div>
+                    </div>
+
+                    <div class="armazenar">
+                        <div class="senha">Senha:</div>
+                        <div class="senhaText"><input type="password" id="passwordEmail" placeholder="Senha"></div>
+                
+                        <div class="mostrar"><button onclick="mostrarSenha()" class="buttonSenha"><img src="assets/img/mostrar.png" class="mostrar1"></button></div>
+                    </div>
+
+                    <div class="botaoEntrar"><button onclick="entrar()" class="entrar">Entrar</button></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section1">
+            <div class="cadastro">
+                <div class="titleCadastro">Cadastro</div>
+                <div class="mainText2">
+                    <div class="armazenar">
+                        <div class="name">Nome:</div>
+                        <div class="nameText"><input type="text" id="textoDoNome" placeholder="Nome"></div>
+                    </div>
+
+                    <div class="armazenar">
+                        <div class="lastName">Sobrenome:</div>
+                        <div class="lastNameText"><input type="text" id="sobrenome" placeholder="Sobrenome"></div>
+                    </div>
+
+                    <div class="armazenar">
+                        <div class="phone">Telefone:</div>
+                        <div class="phoneText"><input type="tel" id="phoneNumber" placeholder="Telefone"></div>
+                    </div>
+
+                    <div class="armazenar">
+                        <div class="email2">E-mail:</div>
+                        <div class="emailText2"><input type="email" id="textoDoEmail2" placeholder="E-mail"></div>
+                    </div>
+
+                    <div class="armazenar">
+                        <div class="password">Senha:</div>
+                        <div class="passwordText"><input type="password" id="passwordEmail2" placeholder="Senha"></div>
+
+                        <div class="ver"><button onclick="verSenha()" class="verSenha"><img src="assets/img/mostrar.png" class="mostrar2"></button></div>
+                    </div>
+
+                    <div class="armazenar">
+                        <div class="confirmPassword">Confirme sua senha:</div>
+                        <div class="confirm"><input type="password" id="confirmPasswordEmail" placeholder="Confirme senha"></div>
+
+                        <div class="aparecer"><button onclick="aparecerSenha()" class="aparecerSenha"><img src="assets/img/mostrar.png" class="mostrar3"></button></div>
+                    </div>
+
+                    <div class="botaoCadastrar"><button onclick="cadastrar()" class="cadastrar">Cadastrar</button></div>
+            
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
